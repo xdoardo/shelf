@@ -12,7 +12,7 @@ use serde::{Deserialize, Serialize};
 
 fn get_data_path() -> String {
     if let Some(proj_dirs) = ProjectDirs::from("", "", "shelf") {
-        proj_dirs.config_dir().clone().to_string_lossy().to_string()
+        proj_dirs.config_dir().to_string_lossy().to_string()
     } else {
         String::from_str("~/.shelf").unwrap()
     }
