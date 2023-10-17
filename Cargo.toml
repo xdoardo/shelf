@@ -2,8 +2,14 @@
 name = "shelf"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["ecmm <ecmm@anche.no>"]
+license = "MIT"
+description = "A tool to bookmark files"
+readme = "README.md"
+homepage = "https://github.com/ecmma/shelf"
+repository = "https://github.com/ecmma/shelf"
+keywords = ["cli", "bookmark", "files"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1.0.75"
